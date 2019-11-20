@@ -88,3 +88,6 @@ C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi\bin\es\System.Web.Http.W
 C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi\obj\Debug\PruebaApi.csprojResolveAssemblyReference.cache
 C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi\obj\Debug\PruebaApi.dll
 C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi\obj\Debug\PruebaApi.pdb
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi\bin\System.Web.Cors.dll
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi\bin\System.Web.Http.Cors.dll
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi\bin\System.Web.Http.Cors.xml

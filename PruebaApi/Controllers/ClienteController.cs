@@ -1,4 +1,5 @@
 ﻿using PruebaApi.Data.AccesoDato;
+using PruebaApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +7,10 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
+
 namespace PruebaApi.Controllers
 {
+    [Serializable]
     public class ClienteController : ApiController
     {
         //Esta seccion es para la inyeccion de dependencia, en donde utilizamos ninject
@@ -18,7 +21,7 @@ namespace PruebaApi.Controllers
         }
 
         //Obtener reporte cliente
-        [HttpPost]
+        [HttpGet]
         [Route("api/clientes/")]//Le da el nombre al cual quiere que llegue
         public HttpResponseMessage GetClientes()
         {
@@ -39,12 +42,12 @@ namespace PruebaApi.Controllers
 
         //Obtener reporte cliente
         [HttpPost]
-        [Route("api/clientes/detalle/{id}")]//Le da el nombre al cual quiere que llegue
-        public HttpResponseMessage GetClientesConParametro(int id)
+        [Route("api/clientes/detalle/")]//Le da el nombre al cual quiere que llegue
+        public HttpResponseMessage GetClientesConParametro(param input)
         {
             try
             {
-                var respuesta = _acceso.ObtieneReportePorCliente(id);//Llama al metodo y devuelve la informacion, esta podria llevar un servicio entremedio para mapear otras cosas,
+                var respuesta = _acceso.ObtieneReportePorCliente(input.Id);//Llama al metodo y devuelve la informacion, esta podria llevar un servicio entremedio para mapear otras cosas,
                 //hacer calculos, cambiar propiedades etc
 
                 return Request.CreateResponse(HttpStatusCode.OK, respuesta); // devuelve la respuesta 
