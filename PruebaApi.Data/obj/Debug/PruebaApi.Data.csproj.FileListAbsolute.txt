@@ -3,3 +3,8 @@ c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\bin\Debug\Prue
 c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\obj\Debug\PruebaApi.Data.csprojResolveAssemblyReference.cache
 c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\obj\Debug\PruebaApi.Data.dll
 c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\obj\Debug\PruebaApi.Data.pdb
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi.Data\bin\Debug\PruebaApi.Data.dll
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi.Data\bin\Debug\PruebaApi.Data.pdb
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi.Data\obj\Debug\PruebaApi.Data.csprojResolveAssemblyReference.cache
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi.Data\obj\Debug\PruebaApi.Data.dll
+C:\Users\hdiaz\Documents\GitHub\EjemploSimple\PruebaApi.Data\obj\Debug\PruebaApi.Data.pdb

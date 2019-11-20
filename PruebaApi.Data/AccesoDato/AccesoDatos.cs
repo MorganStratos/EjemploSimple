@@ -40,5 +40,27 @@ namespace PruebaApi.Data.AccesoDato
                 return respuesta;
             }
         }
+
+        public IEnumerable<ReporteClienteResponse> ObtieneReportePorCliente(int id)
+        {
+            //Generamos lista vacia
+            var respuesta = new List<ReporteClienteResponse>();
+            try
+            {
+                //Aquí utilizamos PETAPOCO ya dependera de la conexion que usted quiera realizar pero es practicamente las mismas.
+                //Con esto obtenemos una lista desde un procedimiento. Tambien se puede mandar una consulta directa con o sin parametros.
+                respuesta = bdcliente.Fetch<ReporteClienteResponse>(";exec sp_ReporteClientePorId @Id", new { Id = id });
+                return respuesta;
+
+                //Misma consulta con parametro necesario
+                //respuesta = bdcliente.Fetch<ReporteClienteResponse>(";exec sp_ReporteCliente @cliente", new { cliente = cliente });
+                
+            }
+            catch (Exception)
+            {
+                //Si por algun motivo la consulta se cae devolvera la lista vacia, podria devolverse el error o alguna otra cosa pero ya seria cosa de configurar mejor la captura de error
+                return respuesta;
+            }
+        }
     }
 }
