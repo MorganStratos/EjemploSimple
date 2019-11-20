@@ -31,7 +31,7 @@ namespace PruebaApi.Data.AccesoDato
                 return respuesta;
 
                 //Misma consulta con parametro necesario
-                //respuesta = bdcliente.Fetch<ReporteClienteResponse>(";exec SP_vtas_com_ivas_v2 @cliente", new { cliente = cliente });
+                //respuesta = bdcliente.Fetch<ReporteClienteResponse>(";exec sp_ReporteCliente @cliente", new { cliente = cliente });
                 
             }
             catch (Exception)
