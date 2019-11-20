@@ -1,0 +1,5 @@
+c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\bin\Debug\PruebaApi.Data.dll
+c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\bin\Debug\PruebaApi.Data.pdb
+c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\obj\Debug\PruebaApi.Data.csprojResolveAssemblyReference.cache
+c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\obj\Debug\PruebaApi.Data.dll
+c:\users\hdiaz\Documents\VS2013\Projects\PruebaApi\PruebaApi.Data\obj\Debug\PruebaApi.Data.pdb
